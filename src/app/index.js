@@ -1,18 +1,15 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {routing, RootComponent} from './routes';
 
 import {HelloComponent} from './hello';
 
 @NgModule({
   imports: [
-    BrowserModule,
-    routing
+    BrowserModule
   ],
   declarations: [
-    RootComponent,
     HelloComponent
   ],
-  bootstrap: [RootComponent]
+  bootstrap: [HelloComponent]
 })
 export class AppModule {}
