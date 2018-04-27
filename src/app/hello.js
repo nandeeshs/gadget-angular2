@@ -6,6 +6,6 @@ import {Component} from '@angular/core';
 })
 export class HelloComponent {
   constructor() {
-    this.hello = 'Hello World!';
+    this.hello = 'Welcome to Angular App!';
   }
 }
