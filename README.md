@@ -19,4 +19,10 @@ Start a Development Server
 ```
 npm run serve
 ```
-You can now access the gadget from http://localhost:3000 and can see "Hello World" getting displayed.
+You can now access the gadget or execute standalone from http://localhost:3000 and can see "Welcome to Angular App!" getting displayed.
+
+## Adding to an Open Social Container (dashboard)
+copy and place gadget.xml present under public directory to .tmp directory (untill we automate this).
+To add this gadget to an open social container, specify the URL to the gadget.xml file served by this Angular application, e.g.
+http://localhost:3000/gadget.xml
+If you change the host/port, make sure you edit the gadget.xml accordingly.
