@@ -14,6 +14,10 @@ First install the necessary dependencies, this may take a few minutes.
 ```
 npm install
 ```
+install the webpack-plugin-copy dependency to copy gadget.xml to build directory, this may take a few minutes.
+```
+npm install --save-dev webpack-plugin-copy
+```
 
 Start a Development Server
 ```
