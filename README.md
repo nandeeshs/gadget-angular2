@@ -7,7 +7,7 @@ scaffold for angularj2 using yeoman
 
 ## Intro
 This is an example project for creating an opensocial gadget for hosting in an opensocial container.This project is embedded with angular2 lib
-with simple "Hello World" app.
+with simple "Welcome to Angular2 App!" app.
 
 ## Steps 
 First install the necessary dependencies, this may take a few minutes.
