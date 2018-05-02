@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const conf = require('./gulp.conf');
 const path = require('path');
 
+const CopyWebpackPlugin = require('webpack-plugin-copy');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const FailPlugin = require('webpack-fail-plugin');
 const autoprefixer = require('autoprefixer');
@@ -56,6 +57,9 @@ module.exports = {
       /angular(\\|\/)core(\\|\/)(esm(\\|\/)src|src)(\\|\/)linker/,
       conf.paths.src
     ),
+    new CopyWebpackPlugin([
+            {from:'public/gadget.xml'} 
+    ]),
     new webpack.LoaderOptionsPlugin({
       options: {
         postcss: () => [autoprefixer]
