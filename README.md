@@ -20,6 +20,12 @@ npm run serve
 ```
 You can now access the gadget or execute standalone from http://localhost:3000 and can see "Welcome to Angular2 App!" getting displayed.
 
+To create a production build, run
+```
+npm run build
+```
+This will create a production build in the build directory. You can copy this into any web server.
+
 ## Adding to an Open Social Container (dashboard)
 To add this gadget to an open social container, specify the URL to the gadget.xml file served by this Angular application, e.g.
 http://localhost:3000/gadget.xml
